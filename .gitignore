@@ -1,0 +1,9 @@
+# Python venv
+.venv/
+
+# MkDocs build output
+site/
+
+# OS cruft
+.DS_Store
+Thumbs.db
