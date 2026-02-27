@@ -74,3 +74,91 @@ markdown_extensions:
   # Ensure this points to your CSS file
 extra_css:
   - stylesheets/extra.css
+
+nav:
+  - Guide:
+      - Using this site: guide/using-this-site.md
+      - Icons and symbols: guide/icons-symbols.md
+      - Contact: guide/contact.md
+
+  - Task 1:
+      - The Brief:
+          - Introduction to Task 1: task1/the-brief/index.md
+          - Understanding the Client Brief: task1/the-brief/understanding-the-client-brief.md
+          - Decomposing the problem: task1/the-brief/decomposing-the-problem.md
+          - Identifying client needs: task1/the-brief/client-needs.md
+          - Identifying user needs: task1/the-brief/user-needs.md
+          - Identifying constraints: task1/the-brief/constraints.md
+          - Identifying assumptions: task1/the-brief/assumptions.md
+          - Identifying risks: task1/the-brief/risks.md
+          - Identifying regulatory and legal requirements: task1/the-brief/regulatory-legal.md
+          - Business Context:
+              - Business environment: task1/the-brief/business-context/business-environment.md
+              - Digital value to organisations: task1/the-brief/business-context/digital-value.md
+              - Risk to organisations of using digital systems: task1/the-brief/business-context/risks-to-organisations.md
+              - Technical change management: task1/the-brief/business-context/technical-change-management.md
+
+      - Activity A – Proposal:
+          - Requirements Definition:
+              - Functional requirements: task1/activity-a/requirements/functional-requirements.md
+              - Non-functional requirements: task1/activity-a/requirements/non-functional-requirements.md
+              - Key performance indicators: task1/activity-a/requirements/key-performance-indicators.md
+              - User acceptance criteria: task1/activity-a/requirements/user-acceptance-criteria.md
+              - Requirement traceability: task1/activity-a/requirements/requirement-traceability.md
+              - Justification of requirements: task1/activity-a/requirements/justification.md
+          - Problem Decomposition and Solution Overview:
+              - Identifying the problems to be solved: task1/activity-a/solution-overview/problems-to-be-solved.md
+              - Decomposition of the solution: task1/activity-a/solution-overview/decomposition.md
+              - High-level system structure: task1/activity-a/solution-overview/system-structure.md
+              - Front-end and back-end interaction: task1/activity-a/solution-overview/front-back-end.md
+              - Data flow overview: task1/activity-a/solution-overview/data-flow.md
+              - Risk mitigation strategy: task1/activity-a/solution-overview/risk-mitigation.md
+          - Legal, Regulatory and Ethical Considerations:
+              - Data protection: task1/activity-a/legal/data-protection.md
+              - Privacy considerations: task1/activity-a/legal/privacy.md
+              - Accessibility requirements: task1/activity-a/legal/accessibility.md
+              - Intellectual property considerations: task1/activity-a/legal/intellectual-property.md
+              - Acceptable use considerations: task1/activity-a/legal/acceptable-use.md
+
+      - Activity B – Visual Interface and Data Designs:
+          - Visual Interface Design:
+              - Layout and white space: task1/activity-b/visual-design/layout-white-space.md
+              - Visual hierarchy: task1/activity-b/visual-design/visual-hierarchy.md
+              - Common conventions: task1/activity-b/visual-design/common-conventions.md
+              - Consistency and standards: task1/activity-b/visual-design/consistency-standards.md
+              - Accessibility considerations: task1/activity-b/visual-design/accessibility.md
+              - Justification of design decisions: task1/activity-b/visual-design/justification.md
+          - Data Requirements and Design:
+              - Identification of data entities: task1/activity-b/data-design/data-entities.md
+              - Variables: task1/activity-b/data-design/variables.md
+              - Data structures: task1/activity-b/data-design/data-structures.md
+              - Data types: task1/activity-b/data-design/data-types.md
+              - Data flow diagrams: task1/activity-b/data-design/data-flow-diagrams.md
+              - Entity-relationship diagrams: task1/activity-b/data-design/erd.md
+              - Data dictionaries: task1/activity-b/data-design/data-dictionary.md
+              - Naming conventions: task1/activity-b/data-design/naming-conventions.md
+              - Error-handling procedures: task1/activity-b/data-design/error-handling.md
+              - Validation rules: task1/activity-b/data-design/validation.md
+              - Data security considerations: task1/activity-b/data-design/data-security.md
+
+      - Activity C – Use of Generative AI:
+          - Identified problems addressed using AI: task1/activity-c/problems-addressed.md
+          - Prompt design: task1/activity-c/prompt-design.md
+          - Iterative refinement: task1/activity-c/iterative-refinement.md
+          - Review of generated code:
+              - Strengths and weaknesses: task1/activity-c/output-review-strengths-weaknesses.md
+              - Required refinements: task1/activity-c/output-review-refinements.md
+          - Manual modifications: task1/activity-c/manual-modifications.md
+          - Evaluation of AI effectiveness: task1/activity-c/evaluation.md
+
+      - Quality of Communication: task1/quality-of-communication.md
+      - Task 1 Submission Checklist: task1/submission-checklist.md
+
+  - Task 2:
+      - Introduction: task2/index.md
+
+  - Task 3:
+      - Introduction: task3/index.md
+
+  - Appendices:
+      - Overview: appendices/index.md
