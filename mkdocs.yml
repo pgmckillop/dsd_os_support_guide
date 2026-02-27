@@ -1,1 +1,76 @@
-site_name: My Docs
+site_name: DSD Occupational Specialism Project Guide
+site_author: Paul McKillop
+
+copyright: © 2026 Paul McKillop · No part of this material may be reproduced without permission.
+
+theme:
+  name: material
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - navigation.indexes
+    - navigation.instant
+    - navigation.expand
+    - navigation.tracking
+    # I kept this enabled, but we will reinforce it with CSS lines
+    - navigation.subnavigation.indent
+    - navigation.path # Added: helpful for deep hierarchies
+    - toc.integrate
+    - search.highlight
+    - search.share
+  palette:
+    # Dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: indigo
+      accent: deep purple
+    # Light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep purple
+
+plugins:
+  - search
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - footnotes
+  - md_in_html
+  - meta
+  - toc:
+      permalink: true
+      toc_depth: 1
+
+  # Consolidated Pymdownx Extensions
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  # Ensure this points to your CSS file
+extra_css:
+  - stylesheets/extra.css
